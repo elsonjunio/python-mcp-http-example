@@ -223,3 +223,36 @@ async def test_mcp_client():
 if __name__ == '__main__':
     asyncio.run(test_mcp_client())
 ```
+
+### Comparação com redes multiagente (arquitetura baseada em múltiplos graphs)
+
+Nos últimos meses, tenho desenvolvido sistemas de agentes utilizando [LangChain](https://python.langchain.com/docs/introduction/), observando padrões comuns em implementações corporativas:
+
+- **Arquitetura típica**: 
+  - Dados distribuídos por setores/departamentos
+  - Agentes especializados por domínio
+  - Processos complexos para consolidação de relatórios
+
+**Principais características do LangChain**:
+✔ Framework maduro com ampla adoção  
+✔ Capacidade de integrar diversas APIs e fontes de dados  
+✔ Mecanismos robustos para orquestração de agentes  
+✔ Prompts especializados por contexto/domínio  
+
+**Sobre o MCP** ([Model Context Protocol](https://spec.modelcontextprotocol.io/specification/2025-03-26/)):
+🔧 Protocolo aberto para padronização de comunicação LLM-serviços  
+🚀 Foco em interoperabilidade entre sistemas  
+🧩 Permite construção de agentes complexos com orquestração nativa  
+
+**Cenários de uso complementares**:
+1. **Migração gradual**: Adicionar novos componentes via MCP em sistemas LangChain existentes
+2. **Arquitetura híbrida**: 
+   - LangChain para orquestração principal
+   - MCP para integração com serviços especializados
+3. **Padronização**: Utilizar MCP como camada de abstração para serviços heterogêneos
+
+**Vantagens da abordagem combinada**:
+- Redução de technical debt em integrações customizadas
+- Maior flexibilidade para substituir componentes
+- Possibilidade de reutilização entre diferentes frameworks
+
