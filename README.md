@@ -42,7 +42,7 @@ O projeto demonstra como:
 ### Instalação
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/elsonjunio/python-mcp-http-example.git
 cd python-mcp-http-example
 poetry install
 ```
