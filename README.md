@@ -234,12 +234,14 @@ Nos últimos meses, tenho desenvolvido sistemas de agentes utilizando [LangChain
   - Processos complexos para consolidação de relatórios
 
 **Principais características do LangChain**:
+
 ✔ Framework maduro com ampla adoção  
 ✔ Capacidade de integrar diversas APIs e fontes de dados  
 ✔ Mecanismos robustos para orquestração de agentes  
 ✔ Prompts especializados por contexto/domínio  
 
 **Sobre o MCP** ([Model Context Protocol](https://spec.modelcontextprotocol.io/specification/2025-03-26/)):
+
 🔧 Protocolo aberto para padronização de comunicação LLM-serviços  
 🚀 Foco em interoperabilidade entre sistemas  
 🧩 Permite construção de agentes complexos com orquestração nativa  
