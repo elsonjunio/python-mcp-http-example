@@ -118,7 +118,7 @@ Final response:
 A resposta formal para o usuário seria: A soma dos números 2 e 100 é igual a 102.
 ```
 
-Baseado em
+## Baseado em
 
 Este projeto foi desenvolvido com base em:
 
